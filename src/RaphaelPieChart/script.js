@@ -23,8 +23,8 @@ function extension_Done(){
 	Qva.AddExtension('RaphaelPieChart', 
 	function(){
 		//Load a CSS style sheet
-		Qva.LoadCSS(template_path + "demo.css");
-		Qva.LoadCSS(template_path + "demo-print.css");
+		//Qva.LoadCSS(template_path + "demo.css");
+		//Qva.LoadCSS(template_path + "demo-print.css");
 		
 	var _this = this;
 	
