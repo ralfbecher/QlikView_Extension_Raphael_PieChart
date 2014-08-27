@@ -2,4 +2,5 @@
 	<Dimension Label="Labels" Initial="Label" />
 	<Measurement Label="Values" Initial="count(Label)" />
 	<Text Label="Chart Title" Type="text" Initial="" Expression="My Title"/>
+	<Text Label="Show Tooltip" Type="checkbox" Expression="1" />
 </ExtensionObject>
