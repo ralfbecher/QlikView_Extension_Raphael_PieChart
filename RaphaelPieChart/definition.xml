@@ -1,4 +1,9 @@
-<ExtensionObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Definition.xsd" Label="Raphael Pie Chart" Description="Raphael Pie Chart" PageHeight="20000">
+<?xml version="1.0" encoding="utf-8" ?>
+<ExtensionObject Path="RaphaelPieChart" 
+				 Label="Raphael Pie Chart" 
+				 Description="Raphael Pie Chart" 
+ 				 PageWidth="2"
+				 PageHeight="2000">
 	<Dimension Label="Labels" Initial="Label" />
 	<Measurement Label="Values" Initial="count(Label)" />
 	<Text Label="Chart Title" Type="text" Initial="" Expression="My Title"/>
