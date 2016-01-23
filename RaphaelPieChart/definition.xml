@@ -4,8 +4,11 @@
 				 Description="Raphael Pie Chart" 
  				 PageWidth="2"
 				 PageHeight="2000">
-	<Dimension Label="Labels" Initial="Label" />
-	<Measurement Label="Values" Initial="count(Label)" />
+	<Dimension Label="Labels" Initial="" />
+	<Measurement Label="Values" Initial="" />
 	<Text Label="Chart Title" Type="text" Initial="" Expression="My Title"/>
-	<Text Label="Show Tooltip" Type="checkbox" Expression="1" />
+	<Text Label="Show Tooltip" Type="checkbox" Expression="" />
+    <Initiate Name="Chart.Dimension.0.Field" Value="Label" />
+    <Initiate Name="Chart.Expression.0.0.Definition" Value="=count(Label)" />
+	<Initiate Name="Chart.Text.1.Content" Value="1" />
 </ExtensionObject>
